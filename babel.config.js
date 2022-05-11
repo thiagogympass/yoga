@@ -21,7 +21,7 @@ module.exports = {
         '@babel/preset-react',
         'module:metro-react-native-babel-preset',
       ],
-      plugins: ['import-glob'],
+      plugins: ['import-glob', 'react-native-reanimated/plugin'],
     },
     test: {
       plugins: ['import-glob', '@babel/plugin-transform-flow-strip-types'],
